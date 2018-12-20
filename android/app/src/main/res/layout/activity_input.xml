@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2dddd"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/login_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:popupTheme="@style/Theme.AppCompat.Light">
+        
+        <ImageView
+            android:id="@+id/input_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/sure2"/>
+        
+
+        <TextView
+            android:id="@+id/heath_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="编辑"
+            android:textColor="#fff"
+            android:textSize="27dp"/>
+
+        <ImageView
+            android:id="@+id/cancel_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/cancel2"/>
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/login_toolbar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="用户："
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="性别："
+            android:textSize="25sp"/>
+
+        <RadioGroup
+            android:id="@+id/sexRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/manRadio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:text="男"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:id="@+id/womamRadio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="女"
+                android:textSize="20sp"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身高："
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/line"
+            android:background="#fff"
+            android:hint="cm"
+            android:inputType="number"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体重："
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/line"
+            android:background="#fff"
+            android:hint="kg"
+            android:inputType="number"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+
+    <!--<Button-->
+        <!--android:id="@+id/input_btn"-->
+        <!--android:layout_width="340dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:background="#00F"-->
+        <!--android:text="上传"-->
+        <!--android:textColor="#fff"-->
+        <!--android:textSize="25sp"/>-->
+
+
+</LinearLayout>

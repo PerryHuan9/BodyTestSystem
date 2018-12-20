@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2dddd"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/login_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:popupTheme="@style/Theme.AppCompat.Light">
+
+        <ImageView
+            android:id="@+id/cancel_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/cancel2"/>
+
+        <TextView
+            android:id="@+id/heath_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="上传数据"
+            android:textColor="#fff"
+            android:textSize="27dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="低压："
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/systolicPre"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/line"
+            android:background="#fff"
+            android:hint="mmHg"
+            android:inputType="number"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高压："
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/diastolicPre"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/line"
+            android:background="#fff"
+            android:hint="mmHg"
+            android:inputType="number"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体温："
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/line"
+            android:background="#fff"
+            android:hint="℃"
+            android:inputType="number"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="心率："
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/heartRate"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/line"
+            android:background="#fff"
+            android:hint="分/次"
+            android:inputType="number"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/input_btn"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="#00F"
+        android:text="上传"
+        android:textColor="#fff"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>

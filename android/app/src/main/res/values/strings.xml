@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">健康莞工</string>
+    <string name="bodytestText">体侧</string>
+    <string name="analyseText">分析</string>
+    <string name="heathText">健教</string>
+    <string name="hTitle1">通风病的症状 痛风不能吃什么?</string>
+    <string name="hTitle2">引起湿疹的原因 治疗湿疹的偏方有哪些?</string>
+    <string name="hTitle3">糖尿病人能吃糖 是误解还是真的?</string>
+    <string name="hTitle4">总是感到饥饿不一定是糖尿病 还有这四种可能</string>
+    <string name="hTitle5">心肌炎有什么症状 怎样预防心肌炎?</string>
+    <string name="hTitle6">胃酸过多怎么办 胃酸过多的饮食禁忌有哪些?</string>
+    <string name="hTitle7">频频咳嗽怎么办? 这些食疗可以有效缓解</string>
+    <string name="hTitle8">只要看嘴巴就能知道你的血液粘不粘稠?</string>
+    <string name="hTitle9">长期不换枕头会有这么多危害 多久换一次合适?</string>
+    <string name="hTitle10">怎样预防狂犬病 得了狂犬病有哪些症状?</string>
+    <string name="hTitle11">女性出现唇毛是怎么回事 该如何进行调理?</string>
+    <string name="hTitle12">慢性肾炎的早期症状 慢性肾炎吃什么?</string>
+    <string name="hTitle13">眼睛疲劳的原因 知道原因才能更好缓解眼疲劳?</string>
+    <string name="hTitle14">腹痛怎样缓解 这样按摩效果好</string>
+    <string name="hTitle15">胃疼怎么办？学会养胃才是关键</string>
+    <string name="hTitle16">冬季预防的疾病有哪些 需注意的四种疾病</string>
+    <string name="hTitle17">便秘怎么办 便秘吃什么好?</string>
+    <string name="hTitle18">抑郁症的症状 看看你中招了吗?</string>
+    <string name="heaActText">详情</string>
+    <string name="newUser">注册新用户</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="BLE_list">蓝牙列表</string>
+
+</resources>

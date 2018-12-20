@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/login_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:popupTheme="@style/Theme.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/heath_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/login"
+            android:textColor="#fff"
+            android:textSize="27dp"/>
+
+        <Button
+            android:id="@+id/cancel_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="#00ffffff"
+            android:text="取消"
+            android:textColor="#fff"
+            android:textSize="25sp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/login_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/login_toolbar"
+        android:src="#e2dddd"/>
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/login_toolbar"
+        android:layout_marginTop="25dp"
+        android:background="#fff"
+        android:hint="用户名"
+        android:textSize="24sp"/>
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/user_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/line2"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/line"
+        android:background="#fff"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:textSize="24sp"/>
+
+    <CheckBox
+        android:id="@+id/remeber_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="5dp"
+        android:text="记住密码"
+        android:textSize="18dp"/>
+    <!--<CheckBox
+        android:id="@+id/aoto_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自动登录"
+        android:layout_marginLeft="50dp"
+        android:layout_alignTop="@id/remeber_password"
+        android:layout_toRightOf="@id/remeber_password"
+        android:textSize="18dp"/>-->
+    <!--android:background="@drawable/btn_bg"-->
+
+    <Button
+        android:id="@+id/login2"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remeber_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="#00F"
+        android:text="登录"
+        android:textColor="#fff"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/remeber_password"
+        android:layout_below="@id/login2"
+        android:layout_marginTop="10dp"
+        android:background="#00ffffff"
+        android:text="@string/newUser"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="18sp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/heath_toolbar"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary"
+        android:layout_height="wrap_content"
+        android:popupTheme="@style/Theme.AppCompat.Light">
+
+    <TextView
+        android:id="@+id/heath_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/heaActText"
+        android:textColor="#fff"
+        android:textSize="27dp"/>
+    </android.support.v7.widget.Toolbar>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@color/colorAccent"/>
+    
+    
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
